@@ -1,0 +1,11 @@
+C:\Users\пппп\Desktop\Mini-Games\Mini-Games\TicTacToeGame\TicTacToeGame\bin\Debug\netcoreapp2.1\TicTacToeGame.deps.json
+C:\Users\пппп\Desktop\Mini-Games\Mini-Games\TicTacToeGame\TicTacToeGame\bin\Debug\netcoreapp2.1\TicTacToeGame.runtimeconfig.json
+C:\Users\пппп\Desktop\Mini-Games\Mini-Games\TicTacToeGame\TicTacToeGame\bin\Debug\netcoreapp2.1\TicTacToeGame.runtimeconfig.dev.json
+C:\Users\пппп\Desktop\Mini-Games\Mini-Games\TicTacToeGame\TicTacToeGame\bin\Debug\netcoreapp2.1\TicTacToeGame.dll
+C:\Users\пппп\Desktop\Mini-Games\Mini-Games\TicTacToeGame\TicTacToeGame\bin\Debug\netcoreapp2.1\TicTacToeGame.pdb
+C:\Users\пппп\Desktop\Mini-Games\Mini-Games\TicTacToeGame\TicTacToeGame\obj\Debug\netcoreapp2.1\TicTacToeGame.csprojAssemblyReference.cache
+C:\Users\пппп\Desktop\Mini-Games\Mini-Games\TicTacToeGame\TicTacToeGame\obj\Debug\netcoreapp2.1\TicTacToeGame.csproj.CoreCompileInputs.cache
+C:\Users\пппп\Desktop\Mini-Games\Mini-Games\TicTacToeGame\TicTacToeGame\obj\Debug\netcoreapp2.1\TicTacToeGame.AssemblyInfoInputs.cache
+C:\Users\пппп\Desktop\Mini-Games\Mini-Games\TicTacToeGame\TicTacToeGame\obj\Debug\netcoreapp2.1\TicTacToeGame.AssemblyInfo.cs
+C:\Users\пппп\Desktop\Mini-Games\Mini-Games\TicTacToeGame\TicTacToeGame\obj\Debug\netcoreapp2.1\TicTacToeGame.dll
+C:\Users\пппп\Desktop\Mini-Games\Mini-Games\TicTacToeGame\TicTacToeGame\obj\Debug\netcoreapp2.1\TicTacToeGame.pdb
