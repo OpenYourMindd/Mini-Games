@@ -6,35 +6,44 @@ namespace TicTacToeGame
 {
     public class Field
     {
-        public Marks a1 = new Marks("a1");//Обьявление меток с их адресами, у всех по дефолту тип #
-        public Marks a2 = new Marks("a2");
-        public Marks a3 = new Marks("a3");
-        public Marks b1 = new Marks("b1");
-        public Marks b2 = new Marks("b2");
-        public Marks b3 = new Marks("b3");
-        public Marks c1 = new Marks("c1");
-        public Marks c2 = new Marks("c2");
-        public Marks c3 = new Marks("c3");
+
+       public Marks[] marksarray = new Marks[9];//Массив со всеми метками на поле
+        
+        
+        
+       
 
         public Field()
-        {
-            this.a1 = a1; this.a2 = a2; this.a3 = a3;
-            this.b1 = b1; this.b2 = b2; this.b3 = b3;
-            this.c1 = c1; this.c2 = c2; this.c3 = c3;
-           
+        { this.marksarray = marksarray;
+            
+         
         }
+        public void initmarks()
+        {
+            marksarray[0] = new Marks("a1", 0);//Обьявление меток с их адресами и порядковым номером, у всех по дефолту тип #
+            marksarray[1] = new Marks("a2",1);
+            marksarray[2] = new Marks("a3",2);
+            marksarray[3] = new Marks("b1",3);
+            marksarray[4] = new Marks("b2", 4);
+            marksarray[5] = new Marks("b3",5);
+            marksarray[6] = new Marks("c1",6);
+            marksarray[7] = new Marks("c2",7);
+            marksarray[8] = new Marks("c3",8);
+
+        }
+
         public void initexample()//Вывод примера поля с адресами меток
         {
             Console.WriteLine("\n");
             Console.WriteLine("Places:");
             Console.WriteLine("****************");//Отрисовка
 
-            Console.WriteLine("* " + a1.Place + " * "+a2.Place+" * "+a3.Place+" *");
+            Console.WriteLine("* " +marksarray[0].Place + " * "+ marksarray[1].Place+" * "+ marksarray[2].Place+" *");
             Console.WriteLine("****************");
-            Console.WriteLine("* "+ b1.Place + " * "+ b2.Place+ " * "+ b3.Place+ " *");
+            Console.WriteLine("* "+ marksarray[3].Place + " * "+ marksarray[4].Place+ " * "+ marksarray[5].Place+ " *");
             Console.WriteLine("****************");
 
-            Console.WriteLine("* "+ c1.Place+ " * "+c2.Place+ " * "+ c3.Place+ " *");
+            Console.WriteLine("* "+ marksarray[6].Place+ " * "+ marksarray[7].Place+ " * "+ marksarray[8].Place+ " *");
             
             Console.WriteLine("****************");
         }
@@ -43,21 +52,16 @@ namespace TicTacToeGame
             Console.WriteLine("\n");
             Console.WriteLine("*************");//Отрисовка
 
-            Console.WriteLine("* " + a1.type + " * " + a2.type + " * " + a3.type + " *");
+            Console.WriteLine("* " + marksarray[0].type + " * " + marksarray[1].type + " * " + marksarray[2].type + " *");
             Console.WriteLine("*************");
-            Console.WriteLine("* " + b1.type + " * " + b2.type + " * " + b3.type + " *");
+            Console.WriteLine("* " + marksarray[3].type + " * " + marksarray[4].type + " * " + marksarray[5].type + " *");
             Console.WriteLine("*************");
 
-            Console.WriteLine("* " + c1.type + " * " + c2.type + " * " + c3.type + " *");
+            Console.WriteLine("* " + marksarray[6].type + " * " + marksarray[7].type + " * " + marksarray[8].type + " *");
 
             Console.WriteLine("*************");
         }
-        //public int Crossmove()
-        //{
-        //}
-        //public int Zeromove()
-        //{
-        //}
+       
     }
    
 }
